@@ -29,16 +29,20 @@ public class Tournoi {
      *
      * @modifies /
      * @return un ensemble de joueur dont le classement correspond à celui fourni en entrée
+     * @throws NoAdversaireException s'il n'y a pas d'adversaire
      */
     public ArrayList<Joueur> rechercherAdversaire(String a) throws NoAdversaireException {
-        ArrayList<Joueur> listJoueurs = new ArrayList<>();()
+        ArrayList<Joueur> listJoueurs = new ArrayList<>();
+        boolean trouveAdversaire = false;
+
         for (Joueur j : list) {
             if (j.getClassement().equals(a)){
                 System.out.println("J'ai trouvé : " + j.toString());
                 listJoueurs.add(j);
+                trouveAdversaire = true;
             }
         }
-        if(listJoueurs == null){
+        if(!trouveAdversaire){
             throw new NoAdversaireException("Ex2.Tournoi.rechercherAdversaire(String)");
         }
         return listJoueurs;
