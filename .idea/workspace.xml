@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ac053d8-d5b8-459b-8cdc-3561b485309b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="7ac053d8-d5b8-459b-8cdc-3561b485309b" name="Default Changelist" comment="Rem">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UN-TP4-Ex1/Ex2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UN-TP4-Ex1/Ex2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UN-TP4-Ex1/Ex2/Tournoi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UN-TP4-Ex1/Ex2/Tournoi.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ex2/Tournoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex2/Tournoi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,29 +88,45 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583927718368</updated>
-      <workItem from="1583927719888" duration="15837000" />
+      <workItem from="1583927719888" duration="16151000" />
     </task>
+    <task id="LOCAL-00001" summary="Ajout d'un boolean pour vérifier si un adversaire a été trouvé ou non">
+      <created>1584019768531</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584019768531</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ajout d'un boolean pour vérifier si un adversaire a été trouvé ou non" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout d'un boolean pour vérifier si un adversaire a été trouvé ou non" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1584019601822">
+    <state x="434" y="127" key="CommitChangelistDialog2" timestamp="1584020027956">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1584019601822" />
-    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1584019601820">
+    <state x="434" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1584020027956" />
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1584019971258">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1584019601820" />
-    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1584019601819">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1584019971258" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1584019971257">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1584019601819" />
-    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1584019601821">
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1584019971257" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1584019971256">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1584019601821" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1584019971256" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1584019971258">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1584019971258" />
   </component>
 </project>

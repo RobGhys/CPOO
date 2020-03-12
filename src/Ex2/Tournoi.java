@@ -33,16 +33,14 @@ public class Tournoi {
      */
     public ArrayList<Joueur> rechercherAdversaire(String a) throws NoAdversaireException {
         ArrayList<Joueur> listJoueurs = new ArrayList<>();
-        boolean trouveAdversaire = false;
 
         for (Joueur j : list) {
             if (j.getClassement().equals(a)){
                 System.out.println("J'ai trouvé : " + j.toString());
                 listJoueurs.add(j);
-                trouveAdversaire = true;
             }
         }
-        if(!trouveAdversaire){
+        if(listJoueurs.isEmpty()){
             throw new NoAdversaireException("Ex2.Tournoi.rechercherAdversaire(String)");
         }
         return listJoueurs;
