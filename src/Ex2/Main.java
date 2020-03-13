@@ -40,7 +40,7 @@ public class Main {
         }
 
         //Test erreur : pas d'adversaire
-        System.out.println("\n------------------------------------");
+        System.out.println("------------------------------------");
 
         Tournoi t2 = new Tournoi(lists);
         try {

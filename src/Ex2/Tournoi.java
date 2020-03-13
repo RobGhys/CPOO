@@ -28,8 +28,8 @@ public class Tournoi {
     /**
      *
      * @modifies /
-     * @return un ensemble de joueur dont le classement correspond à celui fourni en entrée
-     * @throws NoAdversaireException s'il n'y a pas d'adversaire
+     * @throws NoAdversaireException si listJoueurs est vide, sinon
+     * @returns un ensemble de joueur dont le classement correspond à celui fourni en entrée
      */
     public ArrayList<Joueur> rechercherAdversaire(String a) throws NoAdversaireException {
         ArrayList<Joueur> listJoueurs = new ArrayList<>();
