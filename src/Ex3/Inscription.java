@@ -16,6 +16,21 @@ public class Inscription {
 
     /**
      *
+     * @returns true si e n'est pas similaire à l'un des éléments présents dans this.elevesInscrits, false sinon
+     */
+    public boolean checkNoDoublons(Eleve e){
+        int taille = this.elevesInscrits.size();
+
+        for(int i = 0; i < taille; i++){
+            if(this.elevesInscrits.get(i).equals(e)){
+                return false;
+            }
+        }
+        return true;
+    }
+
+    /**
+     *
      * @effects initialise this à la List<Eleve> e
      */
     public Inscription (List<Eleve> e){
@@ -24,29 +39,24 @@ public class Inscription {
 
     /**
      * @throws MauvaisAgeException si petitEleve.age < 8 || petitEleve.age > 16, sinon
+     * @throws DejaInscritException si petitEleve.age est déjà dans this
      * @modifies this
      * @effects ajoute l'Eleve petitEleve à la liste elevesInscrits
      */
-    public void inscrireEleve (Eleve petitEleve) throws MauvaisAgeException {
+    public void inscrireEleve (Eleve petitEleve) throws MauvaisAgeException, DejaInscritException {
         if( (petitEleve.age < 8) || (petitEleve.age >16) ){
-            throw new MauvaisAgeException("Ex3.Inscription.inscrireEleve (Eleve)");
+            throw new MauvaisAgeException("Ex3.Inscription.inscrireEleve(Eleve)");
         }
+        boolean checkDejaInscrit = false;
+        for(int i = 0; i < this.elevesInscrits.size(); i++){
+            if(this.elevesInscrits.get(i).equals(petitEleve));
+            checkDejaInscrit = true;
+        }
+        if(checkDejaInscrit){
+            throw new DejaInscritException("Ex3.Inscription.inscrireEleve(Eleve)");
+        }
+
         this.elevesInscrits.add(petitEleve);
-    }
-
-    /**
-     *
-     * @returns true si e n'est pas similaire à l'un des éléments présents dans this.elevesInscrits, false sinon
-     */
-    public boolean checkNoDoublons(Eleve e){
-        int taille = this.elevesInscrits.size();
-
-        for(int i = 0; i < taille; i++){
-            if(this.elevesInscrits.get(i).similar(e)){
-                return false;
-            }
-        }
-        return true;
     }
 
     public String toString(){

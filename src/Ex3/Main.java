@@ -38,9 +38,9 @@ public class Main {
 
         //Test similaire
         Eleve ecolierTest = new Eleve("Hazard", "Caroline", false, 19);
-        System.out.println("Similaire ? " + ecolierTest.similar(ecolier4));
+        System.out.println("Similaire ? " + ecolierTest.equals(ecolier4));
         Eleve ecolierTest2 = new Eleve("Ga", "Caroline", false, 19);
-        System.out.println("Similaire ? " + ecolierTest.similar(ecolierTest2));
+        System.out.println("Similaire ? " + ecolierTest.equals(ecolierTest2));
 
     }
 

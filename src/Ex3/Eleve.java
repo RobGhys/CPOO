@@ -26,7 +26,7 @@ public class Eleve {
      * requires e != null
      * @returns true si this est similaire à e, false sinon
      */
-    public boolean similar(Eleve e){
+    public boolean equals(Eleve e){
         if(! (this.nom.equals(e.nom))){
             return false;
         }

@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ac053d8-d5b8-459b-8cdc-3561b485309b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Ex3/DejaInscritException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex3/Eleve.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex3/Inscription.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex3/MauvaisAgeException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UN-TP4-Ex1/Ex2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UN-TP4-Ex1/Ex2/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UN-TP4-Ex1/Ex2/Tournoi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UN-TP4-Ex1/Ex2/Tournoi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex2/Tournoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex2/Tournoi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex3/Eleve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex3/Eleve.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex3/Inscription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex3/Inscription.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex3/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +104,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583927718368</updated>
-      <workItem from="1583927719888" duration="24290000" />
+      <workItem from="1583927719888" duration="25192000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout d'un boolean pour vérifier si un adversaire a été trouvé ou non">
       <created>1584019768531</created>
@@ -126,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584020052109</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Ajout de l'exercice 3">
+      <created>1584111779912</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584111779913</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,13 +136,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ajout d'un boolean pour vérifier si un adversaire a été trouvé ou non" />
     <MESSAGE value="Utilisation du list.isempty() à la place du boolean" />
-    <option name="LAST_COMMIT_MESSAGE" value="Utilisation du list.isempty() à la place du boolean" />
+    <MESSAGE value="Ajout de l'exercice 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout de l'exercice 3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="434" y="127" key="CommitChangelistDialog2" timestamp="1584020051658">
+    <state x="434" y="127" key="CommitChangelistDialog2" timestamp="1584111779245">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="434" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1584020051658" />
+    <state x="434" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1584111779245" />
     <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1584111098703">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
